@@ -205,13 +205,13 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
-                © Cruip.com
+                © lpoapp.netlify.app
                 <span className="text-gray-700"> · </span>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Terms
+                  Términos
                 </a>
               </p>
               <ul className="inline-flex gap-1">
@@ -248,7 +248,7 @@ export default function Footer() {
                 <li>
                   <a
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
-                    href="#0"
+                    href="https://github.com/JoseVillanuevaP1/SoftwareEngineerBlog"
                     aria-label="Github"
                   >
                     <svg

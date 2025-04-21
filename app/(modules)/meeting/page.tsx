@@ -23,7 +23,7 @@ export default function Meeting() {
 
   const handleChange = (rowIndex: number, colIndex: number, value: string) => {
     const updatedComments = comments.map((row, rIdx) =>
-      row.map((col, cIdx) =>
+      row.map((col: number, cIdx: number) =>
         rIdx === rowIndex && cIdx === colIndex ? value : col
       )
     );
@@ -40,11 +40,11 @@ export default function Meeting() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0f172a] py-10 px-4 text-white">
-      <div className="max-w-7xl mx-auto">
+    <div className="flex justify-center h-full items-center">
+      <div className="max-w-5xl mx-auto">
 
         {/* Título y fecha centrados */}
-        <div className="text-center mb-6">
+        <div className="text-center my-6">
           <h1 className="text-4xl font-bold text-white">Reunión diaria</h1>
           <p className="text-lg font-semibold text-slate-300 mt-1">
             19 DE ABRIL DE 2025
